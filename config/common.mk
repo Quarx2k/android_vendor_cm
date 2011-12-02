@@ -25,7 +25,9 @@ PRODUCT_COPY_FILES += \
     vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt
 
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
+    vendor/cm/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/cm/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions \
+    vendor/cm/prebuilt/common/bin/modelid_cfg.sh:system/bin/modelid_cfg.sh \
 
 # init.d support
 PRODUCT_COPY_FILES += \
@@ -39,11 +41,9 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
 
 PRODUCT_COPY_FILES +=  \
-    vendor/cm/proprietary/RomManager.apk:system/app/RomManager.apk \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so \
     vendor/cm/prebuilt/common/bootanimation.zip:system/media/bootanimation.zip
-  	
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -87,17 +87,17 @@ PRODUCT_VERSION_MAJOR = 9
 PRODUCT_VERSION_MINOR = 0
 PRODUCT_VERSION_MAINTENANCE = 0-RC0
 
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IML74K
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID="IML74K - Ice Cream Sandwich"
 
 ifdef CM_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.cm.version=$(PRODUCT_VERSION_MAJOR)-$(shell date +%m%d%Y)-NIGHTLY-$(PRODUCT_RELEASE_NAME)
+        ro.cm.version=$(PRODUCT_VERSION_MAJOR)-NIGHTLY-$(shell date +%y%m%d)-$(PRODUCT_RELEASE_NAME)
 else
     ifdef CM_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
             ro.cm.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PRODUCT_RELEASE_NAME)
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.cm.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PRODUCT_RELEASE_NAME)-KANG
+            ro.cm.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PRODUCT_RELEASE_NAME)-FORK
     endif
 endif
