@@ -12,6 +12,7 @@ add_lunch_combo cm_hallon-userdebug
 add_lunch_combo cm_jordan-userdebug
 add_lunch_combo cm_i777-userdebug
 add_lunch_combo cm_iyokan-userdebug
+add_lunch_combo cm_kobe-userdebug
 add_lunch_combo cm_mango-userdebug
 add_lunch_combo cm_maguro-userdebug
 add_lunch_combo cm_p4tmo-userdebug
