@@ -10,6 +10,7 @@ add_lunch_combo cm_galaxys2-userdebug
 add_lunch_combo cm_haida-userdebug
 add_lunch_combo cm_hallon-userdebug
 add_lunch_combo cm_jordan-userdebug
+add_lunch_combo cm_jordan_plus-userdebug
 add_lunch_combo cm_i777-userdebug
 add_lunch_combo cm_iyokan-userdebug
 add_lunch_combo cm_kobe-userdebug
