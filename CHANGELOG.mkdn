@@ -11,16 +11,22 @@ Maintainers (CyanogenMod 9):
 ------------
 * Asus EeePad Transformer (tf101): Bumble-Bee, EnJens
 * Asus EeePad Transformer Prime (tf201): Bumble-Bee, EnJens
+* Asus EeePad Transformer Prime (tf300t): xplodwild
 * Google Nexus S: KalimochoAz, burnsra
 * Google Galaxy Nexus: KalimochoAz, bekit, Bumble-Bee
 * HP Touchpad: dalingrin, green--, jcsullins
 * LG Optimus LTE / AT&T Nitro HD: arcee
+* LG Optimus Sol / LG myTouch: Kali-, arcee
 * Motorola Xoom (stingray): TDR, Steady Hawkin, Bazar6 (Team Rogue)
 * Motorola Xoom (wingray): TDR, Steady Hawkin, Bazar6 (Team Rogue)
 * Samsung Galaxy Note (GT-N7000): Entropy512, xplodwild
+* Samsung Galaxy Note AT&T (SGH-I717): cyanogen
 * Samsung Galaxy S (GT-I9000): pawitp
 * Samsung Galaxy S II (GT-I9100): codeworkx, Unhelpful, xplodwild
+* Samsung Galaxy S II (GT-I9100G): codeworkx
 * Samsung Galaxy S II AT&T (SGH-I777): atinm, Entropy512
+* Samsung Galaxy S II Skyrocket (SGH-I727): David Ferguson (dferg)
+* Samsung Galaxy S II T-Mobile (SGH-T989): Mike Grissom (mikeyman77)
 * Samsung Galaxy Tab 10.1: cyanogen, pershoot
 * Samsung Galaxy Tab 8.9: kallt_kaffe
 * Samsung Galaxy Tab 7: cdesai, humberos, jt1134

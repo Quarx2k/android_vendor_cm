@@ -52,7 +52,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
-    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so
+    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
@@ -105,7 +105,8 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    CMWallpapers
+    CMWallpapers \
+    Apollo
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
@@ -123,6 +124,9 @@ ifdef CM_NIGHTLY
     MODVERSION := $(PRODUCT_VERSION_MAJOR)-NIGHTLY-$(shell date +%y%m%d)-$(PRODUCT_RELEASE_NAME)$(CM_EXTRAVERSION)
 else
     ifdef CM_SNAPSHOT
+        ifdef CM_EXTRAVERSION
+            CM_EXTRAVERSION := -$(CM_EXTRAVERSION)
+        endif
         CM_VERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date +%Y%m%d)-SNAPSHOT-$(CM_BUILD)$(CM_EXTRAVERSION)
         MODVERSION := $(PRODUCT_VERSION_MAJOR)$(PRODUCT_VERSION_MINOR)-$(shell date +%y%m%d)-NIGHTLY-$(PRODUCT_RELEASE_NAME)$(CM_EXTRAVERSION)
     else
