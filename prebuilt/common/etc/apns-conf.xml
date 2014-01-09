@@ -1205,9 +1205,9 @@
   <apn carrier="China Mobile MMS" mcc="460" mnc="02" apn="cmwap" proxy="10.0.0.172" port="80" mmsc="http://mmsc.monternet.com" mmsproxy="10.0.0.172" mmsport="80" type="mms" />
   <apn carrier="中国移动 (China Mobile) GPRS" mcc="460" mnc="07" apn="cmnet" type="default,supl" />
   <apn carrier="中国移动彩信 (China Mobile)" mcc="460" mnc="07" apn="cmwap" proxy="10.0.0.172" port="80" mmsc="http://mmsc.monternet.com" mmsproxy="10.0.0.172" mmsport="80" type="mms" />
+  <apn carrier="FarEasTone" mcc="466" mnc="01" apn="internet" type="default,supl" />
   <apn carrier="遠傳電信(Far EasTone) (Fetnet01)" mcc="466" mnc="01" apn="fetnet01" proxy="210.241.199.199" port="80" type="default,supl" />
   <apn carrier="FarEasTone MMS" mcc="466" mnc="01" apn="fetnet01" mmsc="http://mms" mmsproxy="210.241.199.199" mmsport="9201" type="mms" />
-  <apn carrier="FarEasTone" mcc="466" mnc="01" apn="internet" type="default,supl" />
   <apn carrier="KGT" mcc="466" mnc="88" apn="internet" type="default,supl" />
   <apn carrier="KGT MMS" mcc="466" mnc="88" apn="kgtmms" mmsc="http://mms.kgtmms.net.tw/mms/wapenc" mmsproxy="172.28.33.5" mmsport="8080" type="mms" />
   <apn carrier="震旦電信(AURORA) (MMS)" mcc="466" mnc="89" apn="aurorawap" mmsc="http://auroramms" mmsproxy="172.24.128.36" mmsport="8080" type="mms" />
@@ -1406,6 +1406,9 @@
   <apn carrier="Orange KE" mcc="639" mnc="07" apn="bew.orange.co.ke" user="orange" password="orange" type="default,supl" />
   <apn carrier="Orange net KE" mcc="639" mnc="07" apn="wap.orange.co.ke" type="default" />
   <apn carrier="Orange MMS" mcc="639" mnc="07" apn="mms.orange.co.ke" mmsproxy="10.36.16.5" mmsport="8080" mmsc="http://10.36.16.5/servlets/mms" type="mms" />
+  <apn carrier="Safaricom Live" mcc="639" mnc="02" apn="safaricom " user="saf" password="data" type="default,supl" />
+  <apn carrier="Safaricom MMS" mcc="639" mnc="02" apn="safaricom " user="saf" password="data" mmsproxy="172.022.002.038" mmsport="8080" mmsc="http://mms.gprs.safaricom.com" type="mms" />
+  <apn carrier="Airtel KE" mcc="639" mnc="03" apn="internet" type="default,supl" />
   <apn carrier="Airtel Tanzania" mcc="640" mnc="05" apn="internet" type="default,supl" />
   <apn carrier="Airtel UG" mcc="641" mnc="01" apn="web.ug.zain.com" type="default,supl" />
   <apn carrier="MTN UG" mcc="641" mnc="10" apn="yellopix.mtn.co.ug" type="default,supl" />
