@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
 #    HoloSpiralWallpaper \
 
 # Extra tools in CM
-#PRODUCT_PACKAGES += \
-#    vim
-
+PRODUCT_PACKAGES += \
+    vim \
+    zip \
+    unrar
