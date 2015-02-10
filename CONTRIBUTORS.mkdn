@@ -84,6 +84,7 @@ Maintainers (CyanogenMod 11.0):
 * __Samsung Galaxy S III LTE (GT-I9305):__ mcampbellsmith, codeworkx
 * __Samsung Galaxy S IV (AT&T) (SGH-I337):__ attn1
 * __Samsung Galaxy S IV (Canada) (SGH-I337M):__ DvTonder
+* __Samsung Galaxy S IV 3G (GT-I9500):__ intervigil, Alberto96
 * __Samsung Galaxy S IV LTE (GT-I9505):__ invisiblek, noobnl
 * __Samsung Galaxy S IV (Sprint) (SPH-L720):__ mkasick, noobnl
 * __Samsung Galaxy S IV (T-Mobile) (SGH-M919):__ cyanogen
@@ -154,7 +155,7 @@ Translators:
 * __Kurdish:__ falah (Dylan2785)
 * __Latvian:__ Māris Rēdmanis (maaris)
 * __Lithuanian:__ Liudas Ališauskas (liudas.alisauskas), Edmundas Plentauskas (plentauskas1992), HardLight (polizplz), Saulius Vyšniauskas (SauliusVy)
-* __Luxembourgish:__ Michel Weimerskirch (michel_weimerskirch), soued031 (soued031)
+* __Luxembourgish:__ Michel Weimerskirch (michel_weimerskirch), Edson Souza Morais (soued031)
 * __Malay:__ tanakwagu (tanakwagu)
 * __Norwegian Bokmal:__ Vegard Fladby (Allram), Sten Eikrem (Storesteinen)
 * __Persian:__ Ali Niki (alinik), Mehdi HosseinZade (Arshen) (Arshen-2014), Yaser Rajabi (yrajabi)
